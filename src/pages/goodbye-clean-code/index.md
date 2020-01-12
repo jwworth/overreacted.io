@@ -74,9 +74,10 @@ That repetitive math was really bothering me.
 
 It wasn’t *clean*.
 
-Most of the repetition was between similar directions. For example, `Oval.resizeLeft()` had similarities with `Header.resizeLeft()`. This was because they both dealt with dragging the handle on the left side.
+Most of the repetition was between similar directions. For example, `Oval.resizeLeft()` had similarities 
+`Header.resizeLeft()`. This was because they both dealt with dragging the handle on the left side.
 
-The other similarity was between the methods for the same shape. For example, `Oval.resizeLeft()` had similarities with the other `Oval` methods. This was because they all dealt wih ovals. There was also some duplication between `Rectangle`, `Header`, and `TextBlock` because text blocks *were* rectangles.
+The other similarity was between the methods for the same shape. For example, `Oval.resizeLeft()` had similarities with the other `Oval` methods. This was because they all dealt with ovals. There was also some duplication between `Rectangle`, `Header`, and `TextBlock` because text blocks *were* rectangles.
 
 I had an idea.
 
